@@ -51,7 +51,7 @@ df_kunjungan, df_faspen = load_data(DATA_PATH)
 
 # SIDEBAR & NAVIGASI
 st.sidebar.title("Navigasi Dashboard")
-st.sidebar.image("https://museumlistrik-tmii.com/images/mleb-white.png", caption="Logo MLEB")
+st.sidebar.image("https://museumlistrik-tmii.com/images/mleb-white.png")
 
 if df_kunjungan is not None and df_faspen is not None:
     menu = st.sidebar.radio(
